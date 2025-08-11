@@ -1,0 +1,106 @@
+/* CSS for Personal Portfolio Page */
+
+/* Base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Ubuntu Mono', monospace;
+  background: #ffffff;
+  color: #000000;
+}
+
+html {
+  font-size: 110%;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+/* Profile image */
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 70%;
+  border: 3px solid #fff;
+  margin-bottom: 20px;
+}
+
+/* Alias or Title */
+.header1 {
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Full Name */
+.header3 {
+  font-size: 1.3rem;
+  margin: 5px 0;
+  color: #000000;
+  text-align: left;
+
+}
+
+/* Role / Description */
+.header2 {
+  font-size: 1rem;
+  font-style: normal;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+/* Social Icons */
+.link1 {
+  font-size: 1.6rem;
+  color: #000000;
+  margin: 0 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.link1:hover {
+  transform: scale(1.2);
+  color: #0ff;
+}
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.page-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link1 .fa-hackerrank:hover {
+  color: #00ff00;
+}
+.link1 .fa-instagram:hover {
+  color: #E4405F;
+}
+.link1 .fa-linkedin:hover {
+  color: #000000;
+}
+.link1 .fa-envelope:hover {
+  color: #D14836;
+}
+li {
+  font-size: 120%;
+}
