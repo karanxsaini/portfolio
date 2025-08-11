@@ -36,7 +36,7 @@ html {
 /* Alias or Title */
 .header1 {
   font-family: 'Righteous', cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: #000000;
   margin: 0;
@@ -45,7 +45,7 @@ html {
 
 /* Full Name */
 .header3 {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin: 5px 0;
   color: #000000;
   text-align: left;
@@ -54,7 +54,7 @@ html {
 
 /* Role / Description */
 .header2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: normal;
   color: #000000;
   margin-bottom: 20px;
@@ -62,17 +62,13 @@ html {
 
 /* Social Icons */
 .link1 {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   color: #000000;
   margin: 0 10px;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: transform 0.1s ease, color 0.1s ease, color 0.1s ease;
   text-decoration: none;
 }
 
-.link1:hover {
-  transform: scale(1.2);
-  color: #0ff;
-}
 #particles-js {
   position: fixed;
   top: 0;
@@ -90,16 +86,19 @@ html {
 }
 
 .link1 .fa-hackerrank:hover {
-  color: #00ff00;
+  color: #14e114;
 }
 .link1 .fa-instagram:hover {
   color: #E4405F;
 }
 .link1 .fa-linkedin:hover {
-  color: #000000;
+  color: #309ef3;
 }
 .link1 .fa-envelope:hover {
-  color: #D14836;
+  color: #e79084;
+}
+.link1 .fa-github:hover {
+  color: #ea4343;
 }
 li {
   font-size: 120%;
