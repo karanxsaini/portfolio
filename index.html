@@ -2,13 +2,27 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="author" content="Karan Singh">
-  <meta property="og:title" content="Karan Singh — Pentester">
-  <meta property="og:description" content="Cybersecurity portfolio and contact for Karan Singh">
-  <meta property="og:image" content="img/avatar.png">
-  <meta property="og:type" content="website">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="author" content="Karan Singh" />
+  <meta property="og:title" content="Karan Singh — Pentester" />
+  <meta property="og:description" content="Cybersecurity portfolio and contact for Karan Singh" />
+  <meta property="og:image" content="img/avatar.png" />
+  <meta property="og:type" content="website" />
+
+  <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' https://www.googletagmanager.com https://code.jquery.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://cdn.jsdelivr.net;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com;
+      font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+      img-src 'self' data:;
+      connect-src https://www.googletagmanager.com;
+      frame-src 'none';
+      base-uri 'self';
+      form-action 'self';
+      object-src 'none';
+    " />
+
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -21,14 +35,22 @@
         "https://instagram.com/kxransxini"
       ]
     }
-    </script>
-  <!--<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Righteous|Ubuntu+Mono&display=swap" rel="stylesheet">
+  </script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-pO8uV+ciXBGPLi2dYlbZ69mZn1b6JGQ+T/l0J8gEa5BTAQZJ5wIKx6jTDGlXK36jVGpRH4QQDfbTlRUU2GnGFw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Ubuntu+Mono&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-bZRdTVElUjZCft+k71XCMrm9H6eMKb+Ls4JTpAxq/HUQyT+5OSCyPboR1xxVf4RvPb7THOaR1clw6LpYZdK7Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+
+  <!-- Google Analytics (replace with your ID or remove) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -52,18 +74,22 @@
         <div class="col-md">
           <p class="header1">Karan Singh</p>
           <p class="header2">Cybersecurity Analyst </p>
-          <a class="link1" href="mailto:karansainirsm@gmail.com" target="_blank" rel="noopener noreferrer"
-            data-toggle="tooltip" data-placement="bottom" title="Gmail">
+          <a class="link1" href="mailto:karansainirsm@gmail.com" data-toggle="tooltip" data-placement="bottom"
+            title="Gmail">
             <i class="fas fa-envelope"></i>
           </a>
           <a class="link1" href="https://instagram.com/kxrxnsxini" target="_blank" rel="noopener noreferrer"
             data-toggle="tooltip" data-placement="bottom" title="Instagram">
             <i class="fab fa-instagram"></i>
           </a>
-          <a class="link1" href="https://www.linkedin.com/in/karansaini111" data-toggle="tooltip"
-            data-placement="bottom" title="Linkedin"><i class="fab fa-linkedin"></i></a>
-          <a class="link1" href="https://github.com/karanxsaini" data-toggle="tooltip" data-placement="bottom"
-            title="Github"><i class="fab fa-github"></i></a>
+          <a class="link1" href="https://www.linkedin.com/in/karansaini111" target="_blank" rel="noopener noreferrer"
+            data-toggle="tooltip" data-placement="bottom" title="Linkedin">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a class="link1" href="https://github.com/karanxsaini" target="_blank" rel="noopener noreferrer"
+            data-toggle="tooltip" data-placement="bottom" title="Github">
+            <i class="fab fa-github"></i>
+          </a>
           <a class="link1" href="https://www.hackthebox.com/profile/your-username" target="_blank"
             rel="noopener noreferrer" data-toggle="tooltip" data-placement="bottom" title="Hack The Box">
             <i class="fab fa-hackerrank"></i>
@@ -72,7 +98,7 @@
       </div>
     </div>
   </div>
-  </div>
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     crossorigin="anonymous"></script>
